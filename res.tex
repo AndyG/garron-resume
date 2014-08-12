@@ -1,0 +1,143 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional Resume
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.5in,top=0.7in,right=0.5in,bottom=0.3in]{geometry} % Document margins
+\usepackage{gensymb}
+\usepackage{needspace}
+\name{Anderson Garron} % Your name
+\address{5507 Gallatin St, Hyattsville, MD 20781} % Your address
+\address{856~-~369~-~6850 \\ anderson.garron@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Maryland, College Park} \hfill {\em May 2014, expected} \\ 
+M.S. in Computer Science.\\
+Overall GPA: 3.30/4.00
+
+{\bf Ursinus College} \hfill {\em May 2012} \\ 
+B.S. with Distinguished Honors in Computer Science. Major GPA: 3.83/4.00\\
+B.S. in Mathematics. Major GPA: 3.44/4.00\\
+Overall GPA: 3.46/4.00
+\end{rSection}
+
+\begin{rSection}{Skills}
+\textbf{Languages:} C, C++, Python, Java, JavaScript, R, SQL\\
+\textbf{Tools:} Eclipse, Git/GitHub/GitLab, SVN, LaTeX\\
+\textbf{Operating Systems:} Ubuntu, Unix, Windows XP, Windows 7
+\end{rSection}
+
+
+%-----------------------------------------------------------
+% RESEARCH EXPERIENCE SECTION
+%-----------------------------------------------------------
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{University of Maryland Research}{August 2012 - Present}{Graduate Research Assistant}{College Park, MD}
+\item
+\begin{rWorkProject}{Natural Language Processing for the Mental Health Domain (under Prof. Philip Resnik)}
+\item Integrated language models and state-of-the-art topic modeling techniques in Python and Java to improve automatic diagnostic screening for depression in college students.
+\item Demonstrated an 11\% improvement in neuroticism prediction (F-measure) over lexical-categorical approach (LIWC) (Resnik, Garron, and Resnik, 2013).
+\item Worked with large scale data (over 25 million Facebook statuses) as part of a team in the University's CLIP lab, building and providing research software on a shared Unix filesystem.
+\end{rWorkProject}
+\item
+\begin{rWorkProject}{Mobile Audio/Video Streaming for the Service Sector (under Prof. Ashok Agrawala)}
+\item Designing a store-and-forward architecture that uses WebRTC to integrate audio/video feeds into emergency calls.
+\item Implementing mobile client to place calls and web-based client to handle incoming calls and forward to field officers.
+\item Working as part of a team using industry version control standards on a Unix development machine.
+\end{rWorkProject}
+\end{rSubsection}
+
+\begin{rSubsection}{ReactLabs}{May 2013 - September 2013}{Software Contractor}{College Park, MD}
+\item
+\begin{rWorkProject}{Web-Based Charting Client for Live Polling Data}
+\item Implemented web client for live charting of event-related polls, as acquired by ReactLabs mobile polling application. Made use of specialized JavaScript libraries for streaming and charting data.
+\item Worked on front-end in tandem with collaborators at Palomino Labs building the data-providing back-end.
+\end{rWorkProject}
+\end{rSubsection}
+
+%\newpage
+
+\begin{rSubsection}{Ursinus College Research}{May 2009 - May 2012}{Undergraduate Research Assistant}{Collegeville, PA}
+\item
+\begin{rWorkProject}{Applying Machine Learning in the Legal Domain}
+\item Awarded competitive funded summer fellowship to research the information retrieval (IR) technique Latent Semantic Indexing (LSI) in conjunction with machine learning techniques with a focus on the international IR Text REtrieval Conference (TREC). (Garron and Kontostathis, 2011 and 2012.)
+\end{rWorkProject}
+\item
+\begin{rWorkProject}{Automatic Detection of Cyberbullying}
+\item Worked as part of a team in improving and modifying a family of systems to accurately detect cyberbullies and sexual predators in online communications systems. This research focused on techniques in IR and
+machine learning. (Kontostathis et al., 2012.)
+\end{rWorkProject}
+\end{rSubsection}
+\end{rSection}
+
+
+%-----------------------------------------
+% WORK EXPERIENCE
+%-----------------------------------------
+\begin{rSection}{Work Experience}
+\begin{rSubsection}{University of Maryland Computer Science Department}{August 2012 - Present}{Graduate Teaching Assistant}{College Park, MD}
+\item
+\begin{rWorkProject}{Graduate Course TA}
+\item Supervised teams of graduate students in Machine Learning competitions with a focus on detecting mentally unhealthy Facebook users using status updates.
+\item CMSC723 - Computational Linguistics I (Fall 2013)
+\item CMSC773 - Computational Lingusitics II (Spring 2014)
+\end{rWorkProject}
+\item
+\begin{rWorkProject}{Undergraduate Course TA}
+\item TA for various undergraduate CS courses; responsibilities included giving twice-weekly lectures and grading projects.
+\item CMSC216 - Introduction to Computer Systems (Fall 2012, Summer 2013)
+\item CMSC250 - Discrete Structures (Spring 2013)
+\end{rWorkProject}
+\end{rSubsection}
+
+\begin{rSubsection}{Ursinus College Information Technology}{August 2009-May 2012}{IT Help Desk Worker}{Collegeville, PA}
+\item Worked directly with students and faculty in solving hardware and software problems on laptops and mobile devices. 
+\end{rSubsection}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	SELECTED PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+% AMA Style
+\begin{rSection}{Publications}
+\textbf{Resnik, Garron, and Resnik.} Using Topic Modeling to Improve Prediction of Neuroticism and Depression in College Students. \textit{Poster, EMNLP 2013. Seattle, WA. October 2013.}
+\item \textbf{Kontostathis, West, Garron, Reynolds, and Edwards.} Identifying Predators Using ChatCoder 2.0. \textit{Proceedings of CLEF 2012. Rome, Italy. September 2012.}
+\item \textbf{Garron and Kontostathis.} Latent Semantic Indexing with Selective Query Expansion. \textit{Proceedings of the Text Mining Workshop 2012. Anaheim, CA. April 2012.}
+\item \textbf{Garron and Kontostathis.} Applying Latent Semantic Indexing on the TREC 2011 Legal Dataset. \textit{Proceedings of the Twentienth Text Retrieval Conference. Bethesda, MD. November 2011.}
+\end{rSection}
+
+\begin{rSection}{Service \& Awards}
+\textbf{Dean's Fellowship.} University of Maryland, College Park. 2012.
+\item \textbf{Faculty Prize for Excellence in Computer Science.} Ursinus College CS Department, 2012.
+\item \textbf{Executive Board, Phi Kappa Sigma International Fraternity.} Ursinus College, 2011-2012.
+\item \textbf{President, Upsilon Pi Epsilon International Honor Society for the Computing and Information Disciplines.} Ursinus College, 2011-2012.
+\end{rSection}
+\end{document}
